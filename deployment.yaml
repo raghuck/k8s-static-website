@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: static-website-deployment
+  namespace: static-website
 spec:
   replicas: 3
   selector:
